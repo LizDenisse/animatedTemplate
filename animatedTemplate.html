@@ -792,7 +792,7 @@ My Company is the Best               </p>
 </body>
 <!-- Navigation Script -->
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script async src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init({// Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
   offset: 120, // offset (in px) from the original trigger point
@@ -804,18 +804,7 @@ My Company is the Best               </p>
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 });
   </script>
-<script>
-  function toggleNavbar(collapseID) {
-    document.getElementById(collapseID).classList.toggle("hidden");
-    document.getElementById(collapseID).classList.toggle("block");
-  }
 
-  function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
+<script src="animatedTemplateScript.js"></script>
 
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-</script>
 </html>
